@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mobile Menu</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="menu">
+      <header class="menu__header">
+        <button
+          class="menu__btn menu__btn--close"
+          aria-label="Закрыть"
+        ></button>
+        <img src="img/ic/Group.svg" alt="CPS" class="menu__logo" />
+        <button class="menu__btn menu__btn--search" aria-label="Поиск"></button>
+      </header>
+      <nav class="menu__nav">
+        <ul class="menu__list">
+          <li class="menu__item menu__item--active">
+            <a class="menu__link" href="#">Ремонт техники</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#">Услуги и сервисы</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#">Корпоративным клиентам</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#">Продавцам техники</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#">Партнерам</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#">Производителям</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#">Наши сервисные центры</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+      <footer class="menu__footer">
+        <div class="menu__contacts">
+          <button
+            class="menu__contact-btn menu__contact-btn--phone"
+            aria-label="Телефон"
+          ></button>
+          <button
+            class="menu__contact-btn menu__contact-btn--chat"
+            aria-label="Чат"
+          ></button>
+          <button
+            class="menu__contact-btn menu__contact-btn--profile"
+            aria-label="Профиль"
+          ></button>
+        </div>
+
+        <div class="menu__info">
+          <p class="menu__email">mail@cps.com</p>
+          <p class="menu__phone">8 800 890 8900</p>
+        </div>
+        <div class="menu__languages">
+          <span class="menu__language menu__language--active">RU</span>
+          <span class="menu__language">EN</span>
+          <span class="menu__language">CH</span>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
