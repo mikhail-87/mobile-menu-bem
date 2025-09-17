@@ -27,6 +27,7 @@ body {
   width: 320px;
   height: 100vh;
   position: fixed;
+  overflow: auto;
   box-shadow: 16px 0 52px rgba(14, 24, 80, 0.2),
     -2px 0 4px rgba(69, 79, 126, 0.02);
   left: 0;
@@ -105,15 +106,15 @@ body {
   display: block;
   padding: 15px 20px;
   text-decoration: none;
-  color: #333;
+  color: #1b1c21;
   font-size: 16px;
   transition: background-color 0.3s ease;
 }
 
 .menu__item--active .menu__link {
-  color: #1b1c21;
+  color: #7e7e82;
   font-weight: 500;
-  padding-left: 36px;
+  padding-left: 20px;
 }
 
 .menu__link:hover {
@@ -128,7 +129,6 @@ body {
 .menu__contacts {
   display: flex;
   gap: 15px;
-  margin-bottom: 20px;
 }
 
 .menu__contact-btn {
@@ -159,24 +159,21 @@ body {
   transform: rotate(360deg);
 }
 
-.menu__info {
-  margin-bottom: 20px;
-}
-
-.menu__email,
-.menu__phone {
-  margin-bottom: 5px;
-  color: #333;
+.menu__email {
+  margin-top: 16px;
+  margin-bottom: 12px;
+  color: #1b1c21;
 }
 
 .menu__phone {
+  font-size: 24px;
   font-weight: bold;
   color: #1b1c21;
 }
 .menu__languages {
   display: flex;
   gap: 10px;
-  padding-top: 40px;
+  margin-top: 40px;
 }
 
 .menu__language {
